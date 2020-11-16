@@ -13,6 +13,6 @@ Objects - a collection of key value pairs wrapped with a curly bracket
 Common collection methods:
 
 .forEach => iterate over each item in the collection(array) and perform some logic on each
-.map =>
-.filter =>
-.find =>
+.map => iterate over each item transforming the item and placing it in the new array.
+.filter => iterates over array and  determines to keep it in the new array that it's usingselectively choose which items to keep in the array 
+.find => iterates over arr

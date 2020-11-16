@@ -22,14 +22,31 @@
 
 
 
-const arr = [10, 20, 30]
+// const arr = [10, 20, 30]
 
-arr.forEach(function(num){
-    console.log(num)
-})
+//forEach example
+// arr.forEach(function(num){
+//     console.log(num)
+// })
 
-arr.forEach(printNum)
+// arr.forEach(printNum)
 
-function printNum(num) {
-    console.log(num)
+// function printNum(num) {
+//     console.log(num)
+// }
+
+//Map example: also is not a destructive method
+// const output = arr.map(function(num){
+//     return num * 100
+// })
+
+// console.log(arr)
+// //
+// console.log(output)
+
+
+const arr = [10,24,3,7]
+
+arr.filter(function(){
+    num % 2
 }
